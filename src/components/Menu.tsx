@@ -76,9 +76,9 @@ const Menu = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">Want to see our full menu?</p>
-          <button className="bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200">
-            Download Full Menu
-          </button>
+          <a href="/menu.pdf" download="Indomie House Menu" className="bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200 inline-block">
+  Download Full Menu
+</a>
         </div>
       </div>
     </section>
